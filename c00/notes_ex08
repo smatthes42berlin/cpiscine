@@ -1,0 +1,28 @@
+different combinations
+ascending order
+no equal numbers
+
+0 < n < 10
+ if n=2
+ 
+ 01, 02, 03, ..., 09, 12, ...79, 89
+ 
+ if n=3
+ 
+ 012, 013, 014, ..., 019, 023, ...., 789
+ 
+ if n=1
+ 
+ 
+ variables:
+ number of digits total
+ digit current rec level
+ array to save current digit combination
+ previous digit
+ 
+ int arr[3]
+ 
+ arr / &arr[0] -> variable name itself is pointer to first element of array
+ arr[0] / *arr -> first value of array
+ arr[n]	/ *(arr + n) -> every value of arr
+ 
